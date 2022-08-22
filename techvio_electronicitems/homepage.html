@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head><title>Welcome</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<div class="nav">
+<ul class="left">
+<img src="logoed.png">
+<div class="listleft">
+<li><a href="homepage.html">Home</a></li>
+<li><a href="about us.html">About Us</a></li>
+<li><a href="demo.html">Demo</a></li>
+<li><a href="#brands">Brands</a></li>
+<li><a href="products.html">Products</a></li>
+</div>
+</ul>
+<ul class="right">
+<li><a href="signup.html">Sign In</a></li>
+</ul>
+</div>
+
+<div class="slider">
+<img src="adhp1.jpg" id="img1" class="visible">
+<img src="adhp2.jpg" id="img2" class="hidden">
+<img src="adhp3.jpg" id="img3" class="hidden">
+<img src="adhp4.jpg" id="img4" class="hidden">
+</div>
+<div class="circle" id="brands">
+<img src="hp1.jpg">
+<img src="hp2.png">
+<img src="hp3.png">
+<img src="hp4.jpg">
+<img src="hp5.png">
+<img src="hp6.png">
+<img src="hp7.png">
+<img src="hp8.png">
+
+</div><br><br>
+<div class="highlight">
+<h2>HIGHTLIGHTS</h2><br><br>
+<img src="highlight4.jpg">
+<img src="highlight1.jpg">	
+<img src="highlight3.jpg">
+<img src="highlight2.jpg">
+</div><br><br>
+
+
+<div class="newat">
+<h2>NEW AT TECHVIO</h2><br><br>
+<img src="newat2.jpg">
+<img src="newat1.png">
+<img src="newat3.jpg">
+<img src="newat4.jpg">
+
+</div><br><br>
+
+<div class="products">
+
+<h2>PRODUCTS</h2><br><br>
+
+<div class="container">
+  <img src="prod1.jpg" class="image">
+  <div class="middle">
+    <div class="text">1750rs.<br><del>20000rs.</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod2.jpg" class="image">
+  <div class="middle">
+    <div class="text">1500rs.<br><del>1650rs</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod3.jpg" class="image">
+  <div class="middle">
+    <div class="text">15000s.<br><del>17000rs</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod4.jpg" class="image">
+  <div class="middle">
+    <div class="text">900rs.<br><del>1200</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod5.jpg" class="image">
+  <div class="middle">
+    <div class="text">9000rs.<br><del>10500rs</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod6.jpg" class="image">
+  <div class="middle">
+    <div class="text">5000rs.<br><del>6000rs</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod7.jpg" class="image">
+  <div class="middle">
+    <div class="text">65000rs.<br><del>70000rs</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod8.jpg" class="image">
+  <div class="middle">
+    <div class="text">1200rs.<br><del>1500</del></div>
+  </div>
+</div>
+<div class="container">
+  <img src="prod9.jpg" class="image">
+  <div class="middle">
+    <div class="text">800rs.<br><del>1200rs</del></div>
+  </div>
+</div>
+
+</div>
+<button class="btn" onclick="location.href='maincat.html'">Explore More ></button>
+<br><br>
+<div class="footer">
+<div class="LHS">
+<label>connect with us</label><br>
+<input type="text" name="connect" size="25"><br><br>
+<a onclick="location.href='https://twitter.com/'"><img src="favi1.png"></a>
+<a onclick="location.href='https://www.instagram.com/'"><img src="favi2.png"></a>
+<a onclick="location.href='https://www.facebook.com/'"><img src="favi3.png"></a>
+</div>
+<div class="RHS">
+<h3>PRODUCTS</h3>
+<pre>Televisions & Accessories
+Home Appliances
+Phones & Wearables
+Computers & Tablets
+Kitchen Appliances
+Audio & Video
+Grooming & Personal Care
+Cameras & Accessories
+Smart Devices
+Accessories
+</pre>
+</div>
+<marquee><pre> shreshtha puri                         purishreshtha@gmail.com                               9501504359 
+
+ </pre>  </marquee>
+
+</div>
+
+
+</body>
+
+<script type="text/javascript">
+var activeImageId=1;
+var nextImageId=1;
+
+setInterval(function(){
+nextImageId=nextImageId+1;
+if(nextImageId<4){
+document.getElementById("img"+activeImageId).classList.replace("visible","hidden");
+document.getElementById("img"+nextImageId).classList.replace("hidden","visible");
+activeImageId=nextImageId;
+}else{
+	document.getElementById("img"+activeImageId).classList.replace("visible","hidden");
+document.getElementById("img"+nextImageId).classList.replace("hidden","visible");
+activeImageId=4;
+nextImageId=0;
+	}
+},800);
+
+
+</script>
+
+</html>

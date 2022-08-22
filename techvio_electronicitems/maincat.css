@@ -1,0 +1,104 @@
+*{
+	box-sizing: bolder-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	
+}
+body{
+	background-color: #000000;
+	
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	display: flex;
+}
+.container{
+	position: relative;
+	width: 1150px;
+	height: 1400px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(250px,1px));
+	grid-gap: 20px;
+	padding: 10px;
+}
+.container .card{
+width: 100%;
+height: 85%;
+background: #000000;
+margin: 10px;
+}
+.cotainer .card .imgBx{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.container .card .imgBx img{
+	position: absolute;
+	
+	width: 250px;
+    height: 250px;
+	object-fit: cover;
+	
+}
+
+.container .card .content{
+	padding: 5px;
+	margin-top:100%;
+	color: white;
+}
+
+.container .card .content .productNmae h3{
+	font-size: 18px;   
+	font-weight: 500;
+	color: #ffffff;
+	margin: 5px 0; 
+}
+.container .card .content .price_rating{
+	display: flex;
+	justify-content: spacing-between;
+	align-items: center;
+	color: red;
+}
+.container .card .container .price_rating h2{
+	font-size: 20px;
+	
+	font-weight: 500;
+}
+.container .card .content .price_rating .fa{
+	color: #ffd513;
+	cursor: pointer;
+}
+.container .card .content .price_rating .fa.grey{
+	color: #ccc;
+}
+.action{
+	position: absolute;
+	margin-left: 17%;
+}
+.action li{
+	position: relative;
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	background-image:linear-gradient(to right,#6495ED,#00008D);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.action li:hover{
+	background-image:linear-gradient(to left,#6495ED,#00008D);
+}
+
+.container .card .imgBx img:hover{
+	box-shadow: 0px 0px 4px 5px #A9A9A9;
+	cursor: pointer;
+	
+	
+}
+
+

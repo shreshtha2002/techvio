@@ -1,0 +1,63 @@
+body{
+	background-image: linear-gradient(to right,#6495ED,#00008D);
+}
+.left{
+	background-color: #000000;
+	width: 50%;
+	text-align: center;
+	float: left;
+	height: 80vh;
+	margin-top: 5%;
+	border-radius: 10px;
+	color: white;
+	}
+.right{
+	float: right;
+	background-image: url(login.png);
+	text-align: center;
+	color: #ffffff;
+	width: 50%;
+	height: 80vh;
+	margin-top: 5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	
+}
+
+.form{
+	margin-top: 20%;
+	font-size: 20px;
+}
+.right:hover{
+	border-radius: 5px;
+	transition: 0.1sec;
+	box-shadow: 0px 0px 4px 5px #A9A9A9;
+}
+.left:hover{
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 5px #A9A9A9;
+	transition: 0.1sec;
+}
+.btn{
+	background-image: linear-gradient(to right,#6495ED,#00008D);
+	font-size: 15px;
+	width: 40%;
+	height: 35px;
+	color: white;
+	border: #000000;
+	border-radius: 10px;
+
+}
+
+.btn:hover{
+	background-image: linear-gradient(to right,#00008D,#6495ED);
+	transition: 0.1s;
+	color: #00008D;
+}
+.form input{
+	border-radius: 5px;
+	width: 30%;
+	height: 20px;
+	border: none;
+}

@@ -1,0 +1,53 @@
+.body{
+	background-image: linear-gradient(to right,#6495ED,#00008D);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.form{
+	text-align: center;
+	background-color: #000000;
+	width: 30%;
+	height: 80vh;
+	border-radius: 20px;
+	margin-left: 36%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+	padding-top: 5px;
+	color: white;
+}
+.form:hover{
+	box-shadow: 0px 0px 4px 5px #A9A9A9;
+}
+.btn{
+	background-image: linear-gradient(to right,#6495ED,#00008D);
+	font-size: 15px;
+	width: 45%;
+	height: 35px;
+	color: white;
+	border: #000000;
+	border-radius: 10px;
+
+}
+
+.btn:hover{
+	background-image: linear-gradient(to right,#00008D,#6495ED);
+	transition: 0.1s;
+	color: #00008D;
+}
+
+.form input{
+	border-radius: 5px;
+	width: 40%;
+	height: 20px;
+	border: none;
+}
+.form pre{
+	text-decoration: none;
+}
+.form a{
+	color: #6495ED;
+}
+.form a:hover{
+	color: white;
+}
